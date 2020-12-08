@@ -23,7 +23,7 @@ numberBtn.forEach((btn , i) =>{
 });
 
 nullBtn.addEventListener("click" , function(){
-  elInput.value = 0 ;
+  elInput.value = "" ;
   addEventBtn();
 });
 
