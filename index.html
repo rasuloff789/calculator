@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="calculator">
+      <form class="form" id="form" action="https://echo.htmlacademy.ru" method="post">
+        <input class="input" type="text" name="input_value" readonly id="input">
+      </form>
+      <div class="top-buttons">
+        <button class="btn top-btn js-null-btn">
+          AC
+        </button>
+        <button class="btn top-btn js-percent-btn">
+            %
+        </button>
+        <button class="btn top-btn">
+          <span class="material-icons js-copy-btn">
+            content_copy
+            </span>
+        </button>
+        <button class="btn top-btn js-clear-btn">
+          <span class="material-icons">
+            backspace
+            </span>
+        </button>
+      </div>
+      <div class="buttons-box">
+        <div class="numbers-box">
+          <button class="btn number-btn js-number-btn" value="1">1</button>
+          <button class="btn number-btn js-number-btn" value="2">2</button>
+          <button class="btn number-btn js-number-btn" value="3">3</button>
+          <button class="btn number-btn js-number-btn" value="4">4</button>
+          <button class="btn number-btn js-number-btn" value="5">5</button>
+          <button class="btn number-btn js-number-btn" value="6">6</button>
+          <button class="btn number-btn js-number-btn" value="7">7</button>
+          <button class="btn number-btn js-number-btn" value="8">8</button>
+          <button class="btn number-btn js-number-btn" value="9">9</button>
+          <button class="btn number-btn js-number-btn" value="0">0</button>
+          <button class="btn number-btn js-comma-btn" value="." >.</button>
+          <button class="btn" type="submit" form="form">
+            <span class="material-icons">
+              drag_handle
+            </span>
+          </button>
+        </div>
+        
+        <div class="math-actions">
+          <button class="btn math-action-btn multiply-btn">
+            <span class="material-icons">
+              clear
+            </span>
+          </button>
+          <button class="btn math-action-btn add-btn">
+            <span class="material-icons">
+              add
+            </span>
+          </button>
+          <button class="btn math-action-btn minus-btn">
+            <span class="material-icons">
+              remove
+            </span>
+          </button>
+          <button class="btn math-action-btn divide-btn">➗</button>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
